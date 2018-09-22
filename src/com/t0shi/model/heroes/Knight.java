@@ -1,6 +1,6 @@
 package com.t0shi.model.heroes;
 
-public class Knight {
+public class Knight implements ICanBeHero {
 
     private String name;
 
@@ -11,35 +11,43 @@ public class Knight {
     private int agillity;
     private int speed;
 
+    @Override
     public int getStrenght() {
-        return strenght;
+        return 0;
     }
 
+    @Override
     public int getDefence() {
-        return defence;
+        return 0;
     }
 
+    @Override
     public int getIntelligence() {
-        return intelligence;
+        return 0;
     }
 
+    @Override
     public int getDextrity() {
-        return dextrity;
+        return 0;
     }
 
+    @Override
     public int getAgillity() {
-        return agillity;
+        return 0;
     }
 
+    @Override
     public int getSpeed() {
-        return speed;
+        return 0;
     }
 
+    @Override
     public String getName() {
-        return name;
+        return null;
     }
 
+    @Override
     public void setName(String name) {
-        this.name = name;
+
     }
 }
