@@ -13,14 +13,15 @@ public class Main {
     }
 
     static void printoutHero(Mage hero) {
-        System.out.println("-------------------------------------------------");
+        System.out.println("---------------------------------------------------------");
         System.out.println(hero.getName()+"\t|"
                 + "str: "+hero.getStrenght() +"\t|"
                 + "def: "+hero.getDefence() +"\t|"
                 + "int: "+hero.getIntelligence() +"\t|"
                 + "agi: "+hero.getAgillity() +"\t|"
-                + "dex: "+hero.getSpeed() +"\t|");
-        System.out.println("-------------------------------------------------");
+                + "spd: "+hero.getSpeed() +"\t|"
+                + "dex: "+hero.getDextrity() +"\t|");
+        System.out.println("---------------------------------------------------------");
 
     }
 

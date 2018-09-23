@@ -43,7 +43,7 @@ public class Mage implements ICanBeHero {
 
     @Override
     public String getName() {
-        return null;
+        return getName();
     }
 
     @Override
